@@ -4,6 +4,10 @@ public class HorseBarn {
 
     private Horse[] spaces;
 
+    public HorseBarn(Horse[] spaces) {
+        this.spaces = spaces;
+    }
+    
 
     public int findHorseSpace(String name) {
         int index = -1;
